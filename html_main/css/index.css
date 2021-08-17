@@ -2040,9 +2040,77 @@ sub{
     padding-top: 133px;
     float: left;
     width: 33%;
+    position: relative;
+    margin-bottom: 359px;
+}
+
+.hoverlay{
+    position: absolute;
+    top: 130px;
+    left: 0;
+    background-color: #ffe400;
+    height: 539px;
+    width: 360px;
+    opacity: 0;
+}
+
+.teamcards:hover .hoverlay{
+    opacity: 1;
+    transition: 0.8s ease-in-out;
+}
+
+.hover_name h4{
+    font-size: 24px;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Montserrat-bold';
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 24px;
+}
+
+.hover_position  h5{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Montserrat-Reg';
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 82px;
+}
+
+.hover_title p{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Muli";
+    text-align: center;
+    width: 257px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 114px;
+}
+
+.dotted{
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.team_reach_sm{
+    text-align: center;
+ 
+}
+
+#twitter{
+    margin-left: -6%;
 }
 
 
+.team_reach_sm i{
+    padding-left: 6%;
+    color: #6b6000;
+}
 
 .team_photo_name_desg{
     width: 359px;
@@ -2074,6 +2142,83 @@ sub{
 .team_hr{
     width: 80%;
     color: #b6b6b6;
+}
+
+/* Impressed section */
+
+.impressed{
+    background: url('../assests/images/impbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+.impTitle h3{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Lato",sans-serif;
+    padding-top: 104px;
+    text-align: center;
+}
+
+.impsub{
+    font-size: 13px;
+    padding-top: 1%;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato",sans-serif;
+}
+
+.btns_impr{
+    padding-top: 69px;
+    padding-left: 343px;
+    /* padding-right: 333px; */
+
+}
+
+.moreinfoimpr{
+    float: left;
+    padding-right: 24px;
+
+}
+
+.moreinfoimpr button{
+    font-size: 18px;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    padding: 20px 40px;
+    letter-spacing: 1px;
+    background-color: transparent;
+}
+
+.moreinfoimpr button:hover{
+    background-color: #ffe300;
+    color: black;
+}
+
+.joinexpmimpr{
+    float: left;
+}
+
+.joinexpimpr button{
+    font-size: 18px;
+    color: white;
+    padding: 20px 45px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-color: white;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.joinexpimpr button:hover{
+    background-color: #ffe400;
+    color:black;
 }
 
 .clear{
